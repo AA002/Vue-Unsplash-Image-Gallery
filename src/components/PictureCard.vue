@@ -1,6 +1,6 @@
 <template>
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top" height="250px" width="250px" :src="url.regular">
+        <img class="card-img-top" :src="url.regular">
         <div class="card-body">
             <h5 class="card-title">{{desc || 'No Description'}}</h5>
             <p class="card-text">By: {{user.name}}</p>
